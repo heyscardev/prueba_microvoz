@@ -1,0 +1,41 @@
+.alert {
+    position: fixed;
+    bottom: 60px;
+    left: 20px;
+    padding: 0.5em 1.5em;
+    border-radius: 6px;
+    opacity: 0.8;
+    z-index: 9999;
+}
+
+.alert-success {
+    background-color: #36b915;
+    color: white;
+}
+
+.alert-error {
+    background-color: red;
+    color: white;
+}
+
+.alert-warning {
+    background-color: orange;
+    color: white;
+}
+
+.alert-info {
+    background-color: dodgerblue;
+    color: white;
+}
+.i-white {
+    color: #fff;
+}
+i.left {
+    float: left;
+    margin-right: 15px;
+}
+
+i.right {
+    float: right;
+    margin-left: 15px;
+}
